@@ -1,5 +1,16 @@
+import Header from './components/NotificationButtton/Header'
+
 function App() {
-	return <h1>Hello World</h1>
+	return (
+		<>
+			<Header />
+			<main>
+				<section id='sales'>
+					<div className='dsmeta-container'></div>
+				</section>
+			</main>
+		</>
+	)
 }
 
 export default App
