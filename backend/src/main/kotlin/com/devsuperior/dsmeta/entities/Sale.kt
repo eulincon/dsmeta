@@ -1,6 +1,6 @@
 package com.devsuperior.dsmeta.entities
 
-import java.time.OffsetDateTime
+import java.time.LocalDate
 import javax.persistence.*
 
 @Entity
@@ -13,5 +13,5 @@ data class Sale(
     val visited: Int?,
     val deals: Int?,
     val amount: Double?,
-    val date: OffsetDateTime?
+    val date: LocalDate?
 )
