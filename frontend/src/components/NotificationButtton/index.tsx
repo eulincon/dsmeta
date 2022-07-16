@@ -6,7 +6,11 @@ import './styles.css'
 
 function handleClick(id: number) {
 	axios(`${BASE_URL}/sales/${id}/notification`).then((res) => {
-		toast.info('SMS enviado com sucesso!')
+		if (res.status === 200) {
+			toast.info('SMS enviado com sucesso! :)')
+		} else {
+			toast.error('Erro ao enviar SMS! :(')
+		}
 	})
 }
 
