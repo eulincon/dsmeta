@@ -9,7 +9,14 @@ function Header() {
 				<h1>DSMeta</h1>
 				<p>
 					Desenvolvido por
-					<a href='https://www.instagram.com/devsuperior.ig'>@devsuperior.ig</a>
+					<a
+						className='rainbow-text'
+						target={'_blank'}
+						href='https://www.instagram.com/eulincon_'
+					>
+						{' '}
+						@eulincon_
+					</a>
 				</p>
 			</div>
 		</header>
